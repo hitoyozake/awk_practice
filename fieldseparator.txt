@@ -1,0 +1,2 @@
+ABC 0 123
+hoge 0 piyo 0 fuga
