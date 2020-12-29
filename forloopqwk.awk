@@ -1,9 +1,9 @@
-BEGIN{}
+BEGIN{ counter = 0;}
+
+{array[counter]=$0; counter++; }
 
 END{
-    for(i=0;i<10;i++){
-         print i;
+    for(i=counter;i>=0;i--){
+         print array[i];
     }
-
 }
-
