@@ -6,4 +6,7 @@ END{
     for(i=counter;i>=0;i--){
          print array[i];
     }
+    for(i in array){
+        print array[i];
+    }
 }
